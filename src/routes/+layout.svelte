@@ -42,7 +42,7 @@
 					<a
 						href="/"
 						class="pt-3 text-gray-300 hover:text-white  text-md font-semibold transition duration-100"
-						>FILMS</a
+						>BOOKS</a
 					>
 					<a
 						href="/"
