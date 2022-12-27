@@ -303,7 +303,7 @@
 					class="group h-28 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3"
 				>
 					<img
-						src="http://joshsand.com/wp-content/uploads/2015/09/Josh-Sand-Infinite-Jest-2.jpg"
+						src="https://ecx.images-amazon.com/images/I/81AiRe1j14L._SL1500_.jpg"
 						loading="lazy"
 						alt=" by Charles Deluvio"
 						class="w-full h-full object-cover object-center hover:border-4 hover:border-green-500"
@@ -397,7 +397,7 @@
 					class="group h-28 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3"
 				>
 					<img
-						src="http://joshsand.com/wp-content/uploads/2015/09/Josh-Sand-Infinite-Jest-2.jpg"
+						src="https://ecx.images-amazon.com/images/I/81AiRe1j14L._SL1500_.jpg"
 						loading="lazy"
 						alt=" by Charles Deluvio"
 						class="w-full h-full object-cover object-center hover:border-4 hover:border-green-500"
