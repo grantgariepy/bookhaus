@@ -3,56 +3,117 @@
 </script>
 
 <!-- navbar -->
-<div class="bg-zinc-800 lg:pb-12">
+<div class="bg-zinc-800 lg:pb-2">
 	<div class="max-w-screen-xl px-4 md:px-8 mx-auto ">
-		<header class="flex justify-center  py-4 md:py-8">
-			<!-- nav - start -->
-			<nav class="hidden lg:flex gap-8">
-				<a
-					href="/"
-					class=" text-white text-3xl font-semibold transition duration-100"
-					>Bookhaus</a
+		<section
+			class="top-0 min-h-max flex justify-center flex-1 shrink-0  overflow-hidden rounded-lg relative py-12 md:py-20 xl:py-48"
+		>
+			<!-- image - start -->
+			<img
+				src="https://images.unsplash.com/photo-1619641554018-8351f85d3e20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				loading="lazy"
+				alt="by https://unsplash.com/@sabinasturzu"
+				class="z-0 w-full h-full object-cover object-center absolute inset-0"
+			/>
+
+			<header
+				class="flex justify-center items-start py-2 md:py-8"
+			>
+				<!-- nav - start -->
+				<nav
+					class="z-10 hidden lg:flex gap-8 absolute top-0 pt-4"
 				>
-				<a
-					href="/"
-					class="pt-3 text-gray-300 hover:text-white text-md font-semibold transition duration-100"
-					>SIGN IN</a
-				>
-				<a
-					href="/"
-					class="pt-3 text-gray-300 hover:text-white text-md font-semibold transition duration-100"
-				>
-					CREATE ACCOUNT
-				</a>
-				<a
-					href="/"
-					class="pt-3 text-gray-300 hover:text-white  text-md font-semibold transition duration-100"
-					>FILMS</a
-				>
-				<a
-					href="/"
-					class="pt-3 text-gray-300 hover:text-white text-md font-semibold transition duration-100"
-					>LISTS</a
-				>
-				<a
-					href="/"
-					class="pt-3 text-gray-300 hover:text-white  text-md font-semibold transition duration-100"
-					>MEMBERS</a
-				>
-				<a
-					href="/"
-					class="pt-3 text-gray-300 hover:text-white text-md font-semibold transition duration-100"
-					>JOURNALS</a
-				>
-				<input
-					type="text"
-					class="bg-gray-200 rounded-3xl"
-				/>
-			</nav>
-			<!-- nav - end -->
-		</header>
+					<a
+						href="/"
+						class=" text-white text-3xl font-semibold transition duration-100"
+						>Bookhaus</a
+					>
+					<a
+						href="/"
+						class="pt-3 text-gray-300 hover:text-white text-md font-semibold transition duration-100"
+						>SIGN IN</a
+					>
+					<a
+						href="/"
+						class="pt-3 text-gray-300 hover:text-white text-md font-semibold transition duration-100"
+					>
+						CREATE ACCOUNT
+					</a>
+					<a
+						href="/"
+						class="pt-3 text-gray-300 hover:text-white  text-md font-semibold transition duration-100"
+						>FILMS</a
+					>
+					<a
+						href="/"
+						class="pt-3 text-gray-300 hover:text-white text-md font-semibold transition duration-100"
+						>LISTS</a
+					>
+					<a
+						href="/"
+						class="pt-3 text-gray-300 hover:text-white  text-md font-semibold transition duration-100"
+						>MEMBERS</a
+					>
+					<a
+						href="/"
+						class="pt-3 text-gray-300 hover:text-white text-md font-semibold transition duration-100"
+						>JOURNALS</a
+					>
+					<input
+						type="text"
+						class="bg-gray-200 rounded-3xl"
+					/>
+				</nav>
+				<!-- nav - end -->
+			</header>
+
+			<!-- image - end -->
+
+			<!-- overlay - start -->
+			<div
+				class=" absolute inset-0 bg-gradient-to-r from-zinc-800 via-transparent to-zinc-800 "
+			/>
+			<div
+				class="absolute inset-0 bg-gradient-to-t from-zinc-800"
+			/>
+			<!-- overlay - end -->
+		</section>
+		<!-- text start -->
+		<!-- text end -->
+		<div
+			class="w-full flex flex-col sm:flex-row sm:justify-center"
+		>
+			<h1
+				class="text-white text-xl sm:text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12"
+			>
+				Track books you've watched. <br />
+				Save those you want to read. <br />
+				Tell your friends what's good.
+			</h1>
+		</div>
+		<div
+			class="w-full flex flex-col sm:flex-row sm:justify-center gap-2.5 mb-8 md:mb-12"
+		>
+			<a
+				href="/"
+				class="inline-block bg-green-500 hover:bg-green-600 active:bg-green-700 focus-visible:ring ring-green-300 text-white text-sm md:text-base font-semibold text-center rounded-sm outline-none transition duration-100 px-8 py-2"
+				>GET STARTED! -- IT'S FREE!</a
+			>
+		</div>
+		<div
+			class="w-full flex flex-col sm:flex-row sm:justify-center"
+		>
+			<h1
+				class="text-zinc-400 text-lg sm:text-md md:text-md text-center mb-8 md:mb-12"
+			>
+				The social network for book lovers. Also available
+				on :(insert app logos)
+			</h1>
+		</div>
 	</div>
 </div>
+
+<!-- slot -->
 <slot />
 
 <!-- footer -->
