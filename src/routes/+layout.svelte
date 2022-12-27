@@ -79,40 +79,10 @@
 			<!-- overlay - end -->
 		</section>
 		<!-- text start -->
-		<!-- text end -->
-		<div
-			class="w-full flex flex-col sm:flex-row sm:justify-center"
-		>
-			<h1
-				class="text-white text-xl sm:text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12"
-			>
-				Track books you've watched. <br />
-				Save those you want to read. <br />
-				Tell your friends what's good.
-			</h1>
-		</div>
-		<div
-			class="w-full flex flex-col sm:flex-row sm:justify-center gap-2.5 mb-8 md:mb-12"
-		>
-			<a
-				href="/"
-				class="inline-block bg-green-500 hover:bg-green-600 active:bg-green-700 focus-visible:ring ring-green-300 text-white text-sm md:text-base font-semibold text-center rounded-sm outline-none transition duration-100 px-8 py-2"
-				>GET STARTED! -- IT'S FREE!</a
-			>
-		</div>
-		<div
-			class="w-full flex flex-col sm:flex-row sm:justify-center"
-		>
-			<h1
-				class="text-zinc-400 text-lg sm:text-md md:text-md text-center mb-8 md:mb-12"
-			>
-				The social network for book lovers. Also available
-				on :(insert app logos)
-			</h1>
-		</div>
 	</div>
 </div>
 
+<!-- text end -->
 <!-- slot -->
 <slot />
 
@@ -179,6 +149,8 @@
 					class="text-gray-300 font-bold hover:text-gray-100 active:text-indigo-600 transition duration-100"
 					>Contact</a
 				>
+			</nav>
+			<div class="flex gap-4">
 				<a
 					href="/"
 					target="_blank"
@@ -197,7 +169,6 @@
 						/>
 					</svg>
 				</a>
-
 				<a
 					href="/"
 					target="_blank"
@@ -254,13 +225,11 @@
 						/>
 					</svg>
 				</a>
-			</nav>
+			</div>
 			<!-- nav - end -->
-		</div>
-		<div
-			class="text-gray-400 text-sm text-start pb-24 pl-28"
-		>
-			© 2022 - Present Bookhaus. All rights reserved.
+			<div class="text-gray-400 text-sm pb-24 pt-4 flex">
+				© 2022 - Present Bookhaus. All rights reserved.
+			</div>
 		</div>
 	</footer>
 </div>
