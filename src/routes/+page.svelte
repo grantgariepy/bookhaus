@@ -9,7 +9,7 @@
 		<h1
 			class="text-white text-xl sm:text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12"
 		>
-			Track books you've watched. <br />
+			Track books you've read. <br />
 			Save those you want to read. <br />
 			Tell your friends what's good.
 		</h1>
@@ -206,7 +206,7 @@
 			class="grid md:grid-cols-3 rounded-sm gap-2 lg:gap-2"
 		>
 			<div
-				class="h-16 sm:h-32 flex justify-center items-center bg-zinc-500 text-zinc-200 rounded-md p-4"
+				class="h-16 sm:h-32 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-green-500 text-zinc-200 rounded-md p-4"
 			>
 				<p>
 					Keep track of every book you've ever watched (or
@@ -214,7 +214,7 @@
 				</p>
 			</div>
 			<div
-				class="h-16 sm:h-32 flex justify-center items-center bg-zinc-500 text-zinc-200 rounded-md p-4"
+				class="h-16 sm:h-32 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-orange-500 text-zinc-200 rounded-md p-4"
 			>
 				<p>
 					Show some love for your favorite books, lists and
@@ -222,7 +222,7 @@
 				</p>
 			</div>
 			<div
-				class="h-16 sm:h-32 flex justify-center items-center bg-zinc-500 text-zinc-200 rounded-md p-4"
+				class="h-16 sm:h-32 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-blue-500 text-zinc-200 rounded-md p-4"
 			>
 				<p>
 					Write and share reviews, and follow friends and
@@ -230,7 +230,7 @@
 				</p>
 			</div>
 			<div
-				class="h-16 sm:h-32 flex justify-center items-center bg-zinc-500 text-zinc-200 rounded-md p-4"
+				class="h-16 sm:h-32 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-green-500 text-zinc-200 rounded-md p-4"
 			>
 				<p>
 					Rate each book on a five-star scale (with halves)
@@ -238,7 +238,7 @@
 				</p>
 			</div>
 			<div
-				class="h-16 sm:h-32 flex justify-center items-center bg-zinc-500 text-zinc-200 rounded-md p-4"
+				class="h-16 sm:h-32 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-orange-500 text-zinc-200 rounded-md p-4"
 			>
 				<p>
 					Keep a diary of your book reading (and upgrade to
@@ -246,7 +246,7 @@
 				</p>
 			</div>
 			<div
-				class="h-16 sm:h-32 flex justify-center items-center bg-zinc-500 text-zinc-200 rounded-md p-4"
+				class="h-16 sm:h-32 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-blue-500 text-zinc-200 rounded-md p-4"
 			>
 				<p>
 					Compile and share lists of books on any topic and
