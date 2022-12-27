@@ -6,7 +6,7 @@
 <div class="bg-zinc-800 lg:pb-2">
 	<div class="max-w-screen-xl px-4 md:px-8 mx-auto ">
 		<section
-			class="top-0 min-h-max flex justify-center flex-1 shrink-0  overflow-hidden rounded-lg relative py-12 md:py-20 xl:py-48"
+			class="top-0 min-h-full flex justify-center flex-1 shrink-0  overflow-hidden rounded-lg relative py-12 md:py-20 xl:py-48"
 		>
 			<!-- image - start -->
 			<img
