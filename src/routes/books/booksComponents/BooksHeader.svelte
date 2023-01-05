@@ -1,16 +1,10 @@
 <!-- navbar -->
-<div class="bg-zinc-800 lg:pb-2">
+<div class="bg-zinc-900 lg:pb-2">
 	<div class="max-w-screen-xl px-4 md:px-8 mx-auto ">
 		<section
-			class="top-0 min-h-full flex justify-center flex-1 shrink-0  overflow-hidden rounded-lg relative py-12 lg:py-48"
+			class="top-0 min-h-full flex justify-center flex-1 shrink-0  overflow-hidden rounded-lg relative "
 		>
 			<!-- image - start -->
-			<img
-				src="https://images.unsplash.com/photo-1619641554018-8351f85d3e20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-				loading="lazy"
-				alt="by https://unsplash.com/@sabinasturzu"
-				class="z-0 w-full h-full object-cover object-center absolute inset-0"
-			/>
 
 			<header
 				class="flex justify-center items-start py-2 md:py-8"
@@ -66,12 +60,7 @@
 			<!-- image - end -->
 
 			<!-- overlay - start -->
-			<div
-				class=" absolute inset-0 bg-gradient-to-r from-zinc-800 via-transparent to-zinc-800 "
-			/>
-			<div
-				class="absolute inset-0 bg-gradient-to-t from-zinc-800"
-			/>
+
 			<!-- overlay - end -->
 		</section>
 		<!-- text start -->
