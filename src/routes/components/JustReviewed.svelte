@@ -6,13 +6,13 @@
 			class="flex flex-row justify-between items-center mb-2 border-b border-gray-400"
 		>
 			<h2
-				class="text-gray-400 text-2xl lg:text-lg  text-center mb-0"
+				class="text-gray-400 text-lg lg:text-lg  text-center mb-0"
 			>
 				JUST REVIEWED
 			</h2>
 
 			<p
-				class="max-w-md text-gray-400 text-center lg:text-right"
+				class="max-w-md text-gray-400 text-center lg:text-right text-sm"
 			>
 				1,252,291,048 books read
 			</p>

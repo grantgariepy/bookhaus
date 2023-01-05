@@ -4,14 +4,14 @@
 	class="flex flex-row justify-between items-center mb-2 border-b border-gray-400"
 >
 	<h2
-		class="text-gray-400 text-2xl lg:text-lg  text-center mb-0"
+		class="text-gray-400 text-md lg:text-lg  text-center mb-0"
 	>
 		POPULAR REVIEWS THIS WEEK
 	</h2>
 
 	<a
 		href="/"
-		class="max-w-md text-gray-400 text-center lg:text-right"
+		class="max-w-md text-gray-400 text-center lg:text-right font-thin"
 	>
 		MORE
 	</a>
@@ -38,9 +38,11 @@
 		<div class="flex flex-col gap-3 py-1">
 			<div class="flex flex-row">
 				<span class=" text-white text-3xl font-bold"
-					>It by Stephen King</span
+					>It by Stephen King <span
+						class=" text-gray-500 text-2xl font-thin"
+						>1986</span
+					></span
 				>
-				<span class=" text-gray-500 text-2xl">1986</span>
 			</div>
 			<!-- stars - start -->
 			<div class="flex gap-0.5 -ml-1">
