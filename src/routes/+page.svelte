@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Header from './components/Header.svelte';
+	import HomeHeader from './components/HomeHeader.svelte';
 	import CallToAction from './components/CallToAction.svelte';
 	import FeaturedItems from './components/FeaturedItems.svelte';
 	import Features from './components/Features.svelte';
@@ -8,7 +8,7 @@
 	import Popular from './components/Popular.svelte';
 </script>
 
-<Header />
+<HomeHeader />
 <CallToAction />
 <FeaturedItems />
 <Features />

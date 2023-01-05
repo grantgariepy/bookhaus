@@ -36,7 +36,7 @@
 						CREATE ACCOUNT
 					</a>
 					<a
-						href="/"
+						href="/books"
 						class="pt-3 text-gray-300 hover:text-white  text-md font-semibold transition duration-100"
 						>BOOKS</a
 					>
