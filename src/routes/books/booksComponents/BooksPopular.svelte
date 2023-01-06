@@ -10,7 +10,7 @@
 			<h2
 				class="text-gray-400 text-lg lg:text-lg  text-center mb-0 uppercase"
 			>
-				Popular Films this week
+				Popular Books this week
 			</h2>
 
 			<a

@@ -9,7 +9,7 @@
 					class="text-gray-400 text-2xl lg:text-3xl  text-center mb-2"
 				>
 					Write and share reviews. Compile your own lists.
-					Share your life in film.
+					Share your life in books.
 				</h2>
 			</div>
 			<div
