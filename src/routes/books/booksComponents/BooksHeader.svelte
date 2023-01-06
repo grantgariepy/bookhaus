@@ -51,7 +51,7 @@
 					>
 					<input
 						type="text"
-						class="bg-gray-200 rounded-3xl"
+						class="bg-zinc-700 text-zinc-400 focus:text-zinc-900 rounded-3xl border-b border-zinc-500 focus:bg-white  focus:outline-none px-2"
 					/>
 				</nav>
 				<!-- nav - end -->
