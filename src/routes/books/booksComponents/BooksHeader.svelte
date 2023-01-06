@@ -20,33 +20,33 @@
 					>
 					<a
 						href="/"
-						class="pt-3 text-zinc-400 hover:text-white text-md font-semibold transition duration-100"
+						class="pt-2 text-zinc-400 hover:text-white text-md font-semibold transition duration-100"
 						>SIGN IN</a
 					>
 					<a
 						href="/"
-						class="pt-3 text-zinc-400 hover:text-white text-md font-semibold transition duration-100"
+						class="pt-2 text-zinc-400 hover:text-white text-md font-semibold transition duration-100"
 					>
 						CREATE ACCOUNT
 					</a>
 					<a
 						href="/"
-						class="pt-3 text-white  text-md font-semibold transition duration-100"
+						class="pt-2 text-white  text-md font-semibold transition duration-100"
 						>BOOKS</a
 					>
 					<a
 						href="/"
-						class="pt-3 text-zinc-400 hover:text-white text-md font-semibold transition duration-100"
+						class="pt-2 text-zinc-400 hover:text-white text-md font-semibold transition duration-100"
 						>LISTS</a
 					>
 					<a
 						href="/"
-						class="pt-3 text-zinc-400 hover:text-white  text-md font-semibold transition duration-100"
+						class="pt-2 text-zinc-400 hover:text-white  text-md font-semibold transition duration-100"
 						>MEMBERS</a
 					>
 					<a
 						href="/"
-						class="pt-3 text-zinc-400 hover:text-white text-md font-semibold transition duration-100"
+						class="pt-2 text-zinc-400 hover:text-white text-md font-semibold transition duration-100"
 						>JOURNALS</a
 					>
 					<input

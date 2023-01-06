@@ -19,18 +19,18 @@
 
 <div class="divide-y">
 	<!-- review - start -->
-	<div class="flex flex-row gap-6">
+	<div class="flex flex-row gap-4">
 		<div>
 			<div>
 				<a
 					href="/"
-					class=" bg-gray-100 rounded-lg overflow-hidden relative"
+					class="group h-48 md:h-48 md:w-32 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3"
 				>
 					<img
 						src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 						loading="lazy"
 						alt=" by Rachit Tank"
-						class="w-48 h-auto object-cover object-center hover:border-4 hover:border-green-500"
+						class="w-full h-full object-cover object-center hover:border-4 hover:border-green-500"
 					/>
 				</a>
 			</div>
@@ -38,11 +38,11 @@
 		<div class="flex flex-col gap-3 py-1">
 			<div class="flex flex-row">
 				<span class=" text-white text-3xl font-bold"
-					>It by Stephen King <span
-						class=" text-gray-500 text-2xl font-thin"
-						>1986</span
-					></span
-				>
+					>It by Stephen King
+					<span class=" text-gray-500 text-2xl font-thin">
+						1986
+					</span>
+				</span>
 			</div>
 			<!-- stars - start -->
 			<div class="flex gap-0.5 -ml-1">
@@ -114,7 +114,7 @@
 			</div>
 			<!-- stars - end -->
 
-			<p class="text-gray-600">
+			<p class="text-zinc-400">
 				This is a section of some simple filler text, also
 				known as placeholder text. It shares some
 				characteristics of a real written text but is random
