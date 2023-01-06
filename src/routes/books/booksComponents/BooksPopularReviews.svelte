@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Reviews from './Popular/Reviews.svelte';
+	import Reviews from '../../components/Popular/Reviews.svelte';
 </script>
 
 <div class="bg-zinc-800 py-6 sm:py-8 lg:py-6">
