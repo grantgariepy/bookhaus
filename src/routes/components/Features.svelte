@@ -15,7 +15,7 @@
 			class="grid md:grid-cols-3 rounded-sm gap-3 lg:gap-2"
 		>
 			<div
-				class="h-32 sm:h-48 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-green-500 text-zinc-200 rounded-md p-4"
+				class="h-28 md:h-42 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-green-500 text-zinc-200 rounded-md p-4"
 			>
 				<p>
 					Keep track of every book you've ever watched (or
@@ -23,7 +23,7 @@
 				</p>
 			</div>
 			<div
-				class="h-32 sm:h-48 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-orange-500 text-zinc-200 rounded-md p-4"
+				class="h-28 md:h-42 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-orange-500 text-zinc-200 rounded-md p-4"
 			>
 				<p>
 					Show some love for your favorite books, lists and
@@ -31,7 +31,7 @@
 				</p>
 			</div>
 			<div
-				class="h-32 sm:h-48 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-blue-500 text-zinc-200 rounded-md p-4"
+				class="h-28 md:h-42 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-blue-500 text-zinc-200 rounded-md p-4"
 			>
 				<p>
 					Write and share reviews, and follow friends and
@@ -39,7 +39,7 @@
 				</p>
 			</div>
 			<div
-				class="h-32 sm:h-48 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-green-500 text-zinc-200 rounded-md p-4"
+				class="h-28 md:h-42 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-green-500 text-zinc-200 rounded-md p-4"
 			>
 				<p>
 					Rate each book on a five-star scale (with halves)
@@ -47,7 +47,7 @@
 				</p>
 			</div>
 			<div
-				class="h-32 sm:h-48 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-orange-500 text-zinc-200 rounded-md p-4"
+				class="h-28 md:h-42 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-orange-500 text-zinc-200 rounded-md p-4"
 			>
 				<p>
 					Keep a diary of your book reading (and upgrade to
@@ -55,7 +55,7 @@
 				</p>
 			</div>
 			<div
-				class="h-32 sm:h-48 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-blue-500 text-zinc-200 rounded-md p-4"
+				class="h-28 md:h-42 flex justify-center items-center bg-zinc-500 cursor-pointer hover:bg-blue-500 text-zinc-200 rounded-md p-4"
 			>
 				<p>
 					Compile and share lists of books on any topic and
