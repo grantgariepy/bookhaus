@@ -56,7 +56,7 @@
 					<div class="flex group">
 						<input
 							type="text"
-							class="form-control opacity-50 bg-zinc-300  text-zinc-400 focus:text-zinc-900 rounded-3xl border-b border-zinc-500  active:bg-white hover:bg-white focus:opacity-100 focus:outline-none my-1 pl-2"
+							class="form-control transition duration-150 opacity-50 bg-zinc-300  text-zinc-400 focus:text-zinc-900 rounded-3xl border-b border-zinc-500  hover:opacity-70 focus:opacity-100 active:opacity-100 focus:outline-none my-1 pl-2"
 						/>
 						<div
 							class="absolute right-2 pt-3  cursor-pointer"
@@ -66,7 +66,7 @@
 								focusable="false"
 								data-prefix="fas"
 								data-icon="search"
-								class="w-3 fill-white group-active:fill-black group-focus-within:fill-zinc-700"
+								class=" transition duration-150  w-3 fill-white group-focus-within:fill-zinc-700 group-hover:fill-zinc-700"
 								role="img"
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 512 512"

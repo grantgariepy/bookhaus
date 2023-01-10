@@ -3,7 +3,7 @@
 		class="w-full flex flex-col sm:flex-row sm:justify-center"
 	>
 		<h1
-			class="text-white text-xl sm:text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12"
+			class="leading-loose tracking-tighter font-bold font-serif text-white text-xl sm:text-3xl md:text-4xl text-center mb-8 md:mb-12"
 		>
 			Track books you've read. <br />
 			Save those you want to read. <br />
@@ -15,7 +15,7 @@
 	>
 		<a
 			href="/"
-			class="inline-block bg-green-500 hover:bg-green-600 active:bg-green-700 focus-visible:ring ring-green-300 text-white text-sm md:text-base font-semibold text-center rounded-sm outline-none transition duration-100 px-8 py-2"
+			class="tracking-widest inline-block bg-green-500 hover:bg-green-600 active:bg-green-700 focus-visible:ring ring-green-300 text-white text-sm md:text-base  text-center rounded-sm outline-none transition duration-100 px-6 py-1"
 			>GET STARTED! -- IT'S FREE!</a
 		>
 	</div>

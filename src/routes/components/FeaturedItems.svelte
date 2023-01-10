@@ -8,13 +8,13 @@
 			<div>
 				<a
 					href="/"
-					class="group h-64 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3"
+					class=" group h-64 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3"
 				>
 					<img
 						src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 						loading="lazy"
 						alt=" by Rachit Tank"
-						class="w-full h-full object-cover object-center hover:border-4 hover:border-green-500"
+						class="hover:border-4 hover:border-green-500 w-full h-full object-cover object-center "
 					/>
 				</a>
 			</div>
