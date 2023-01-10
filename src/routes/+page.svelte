@@ -10,7 +10,7 @@
 	import { page } from '$app/stores';
 </script>
 
-<h1>SvelteKit Auth Example</h1>
+<h1>SvelteKit Auth</h1>
 <p>
 	{#if $page.data.session}
 		{#if $page.data.session.user?.image}
