@@ -1,3 +1,8 @@
+<script>
+	import { signIn, signOut } from '@auth/sveltekit/client';
+	import { page } from '$app/stores';
+</script>
+
 <!-- navbar -->
 <div class="bg-zinc-800 lg:pb-2">
 	<div class="max-w-screen-xl px-4 md:px-8 mx-auto ">
@@ -22,11 +27,13 @@
 						class=" text-white text-3xl font-semibold transition duration-100"
 						>Bookhaus</a
 					>
-					<a
-						href="/"
-						class="pt-2 text-gray-300 hover:text-white text-md font-semibold transition duration-100"
-						>SIGN IN</a
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
+					<p
+						on:click={() => signIn('discord')}
+						class="cursor-pointer pt-2 text-gray-300 hover:text-white text-md font-semibold transition duration-100"
 					>
+						SIGN IN
+					</p>
 					<a
 						href="/"
 						class="pt-2 text-gray-300 hover:text-white text-md font-semibold transition duration-100"

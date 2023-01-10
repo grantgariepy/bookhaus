@@ -34,7 +34,7 @@
 			>You are not signed in</span
 		>
 		<br />
-		<button on:click={() => signIn('github')}
+		<button on:click={() => signIn('discord')}
 			>Sign In with Discord</button
 		>
 	{/if}
