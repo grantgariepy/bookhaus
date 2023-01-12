@@ -14,9 +14,14 @@
 						src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 						loading="lazy"
 						alt=" by Rachit Tank"
-						class="hover:border-4 hover:border-green-500 w-full h-full object-cover object-center "
+						class=" w-full h-full object-cover object-center "
+					/>
+					<div
+						class=" absolute inset-0 border-transparent hover:border-4 hover:border-green-500  duration-150 ease-in-out"
 					/>
 				</a>
+				<!-- overlay -->
+				<!-- overlay end -->
 			</div>
 			<!-- product - end -->
 
@@ -32,6 +37,9 @@
 						alt=" by Galina N"
 						class="w-full h-full object-cover object-center hover:border-4 hover:border-green-500"
 					/>
+					<div
+						class=" absolute inset-0 border-transparent hover:border-4 hover:border-green-500  duration-150 ease-in-out"
+					/>
 				</a>
 			</div>
 			<!-- product - end -->
@@ -46,7 +54,10 @@
 						src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781607109600/h-p-lovecraft-tales-of-horror-9781607109600_hr.jpg"
 						loading="lazy"
 						alt=" by eniko kis"
-						class="w-full h-full object-cover object-center hover:border-4 hover:border-green-500"
+						class="w-full h-full object-cover object-center"
+					/>
+					<div
+						class=" absolute inset-0 border-transparent hover:border-4 hover:border-green-500  duration-150 ease-in-out"
 					/>
 				</a>
 			</div>
@@ -62,7 +73,10 @@
 						src="https://popculturepillowtalk.files.wordpress.com/2013/04/american-gods.jpg"
 						loading="lazy"
 						alt="by Irene Kredenets"
-						class="w-full h-full object-cover object-center hover:border-4 hover:border-green-500"
+						class="w-full h-full object-cover object-center"
+					/>
+					<div
+						class=" absolute inset-0 border-transparent hover:border-4 hover:border-green-500  duration-150 ease-in-out"
 					/>
 				</a>
 			</div>
@@ -78,7 +92,10 @@
 						src="https://ecx.images-amazon.com/images/I/81AiRe1j14L._SL1500_.jpg"
 						loading="lazy"
 						alt=" by Charles Deluvio"
-						class="w-full h-full object-cover object-center hover:border-4 hover:border-green-500"
+						class="w-full h-full object-cover object-center"
+					/>
+					<div
+						class=" absolute inset-0 border-transparent hover:border-4 hover:border-green-500  duration-150 ease-in-out"
 					/>
 				</a>
 			</div>
@@ -94,7 +111,10 @@
 						src="https://d28hgpri8am2if.cloudfront.net/book_images/cvr9780743234924_9780743234924_hr.jpg"
 						loading="lazy"
 						alt=" by Fernando Lavin"
-						class="w-full h-full object-cover object-center hover:border-4 hover:border-green-500"
+						class="w-full h-full object-cover object-center "
+					/>
+					<div
+						class=" absolute inset-0 border-transparent hover:border-4 hover:border-green-500  duration-150 ease-in-out"
 					/>
 				</a>
 			</div>

@@ -30,7 +30,10 @@
 						src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 						loading="lazy"
 						alt=" by Rachit Tank"
-						class="w-full h-full object-cover object-center hover:border-4 hover:border-green-500"
+						class="w-full h-full object-cover object-center "
+					/>
+					<div
+						class=" absolute inset-0 border-transparent hover:border-4 hover:border-green-500  duration-150 ease-in-out"
 					/>
 				</a>
 			</div>
