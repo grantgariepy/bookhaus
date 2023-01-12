@@ -4,9 +4,16 @@
 	import BooksPopular from './booksComponents/BooksPopular.svelte';
 	import JustReviewed from '../components/JustReviewed.svelte';
 	import BooksPopularReviews from './booksComponents/BooksPopularReviews.svelte';
+	import { signIn, signOut } from '@auth/sveltekit/client';
+	import { page } from '$app/stores';
+	import LoggedInHeader from '../components/LoggedIn/LoggedInHeader.svelte';
 </script>
 
-<BooksHeader />
+{#if $page.data.session}
+	<LoggedInHeader />
+{:else}
+	<BooksHeader />
+{/if}
 <ButtonBarAndSearch />
 <BooksPopular />
 <JustReviewed />
