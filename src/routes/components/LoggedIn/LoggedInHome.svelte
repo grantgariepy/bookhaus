@@ -4,10 +4,12 @@
 	import Features from '../Features.svelte';
 	import JustReviewed from '../JustReviewed.svelte';
 	import Popular from '../Popular.svelte';
+	import LoggedInCallToAction from './LoggedInCallToAction.svelte';
 	import LoggedInHeader from './LoggedInHeader.svelte';
 </script>
 
 <LoggedInHeader />
+<LoggedInCallToAction />
 <FeaturedItems />
 <JustReviewed />
 <BreakText />
