@@ -53,7 +53,10 @@
 						>
 							The new site Bookhaus is soon to launch and
 							the masses are fiending for an offical launch
-							date.
+							date. <a
+								class="text-zinc-200 font-bold uppercase hover:text-blue-400"
+								href="/">Read More</a
+							>
 						</p>
 					</div>
 				</div>
