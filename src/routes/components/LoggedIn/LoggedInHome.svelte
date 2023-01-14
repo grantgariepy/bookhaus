@@ -3,6 +3,7 @@
 	import FeaturedItems from '../FeaturedItems.svelte';
 	import Features from '../Features.svelte';
 	import JustReviewed from '../JustReviewed.svelte';
+	import LatestNews from '../LatestNews.svelte';
 	import New from '../New.svelte';
 	import Popular from '../Popular.svelte';
 	import PopularItems from '../PopularItems.svelte';
@@ -14,4 +15,4 @@
 <LoggedInCallToAction />
 <New />
 <PopularItems />
-<Popular />
+<LatestNews />

@@ -1,7 +1,9 @@
 <script lang="ts">
 </script>
 
-<div class="bg-zinc-800 py-6 md:pt-14">
+<div
+	class="bg-gradient-to-b from-zinc-700 to-zinc-800 z-0 py-6 md:pt-14"
+>
 	<div class="max-w-screen-lg px-4 md:px-8 mx-auto">
 		<div class="flex flex-col md:flex-row justify-between">
 			<div class="hidden md:inline-flex" role="group">

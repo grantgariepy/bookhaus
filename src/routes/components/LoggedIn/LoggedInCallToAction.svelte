@@ -3,7 +3,9 @@
 </script>
 
 <!-- break text -->
-<div class="bg-zinc-800 py-2 sm:py-4 lg:py-8">
+<div
+	class="bg-gradient-to-b from-zinc-700 to-zinc-800 z-0 py-2 sm:py-4 lg:py-8"
+>
 	<div>
 		<div class="max-w-screen-lg px-4 md:px-8 mx-auto">
 			<div
@@ -12,7 +14,9 @@
 				<h2
 					class="text-zinc-400 text-2xl lg:text-3xl  text-center mb-2"
 				>
-					Welcome back, <a href="/" class=" text-zinc-200"
+					Welcome back, <a
+						href="/"
+						class=" text-zinc-200 underline underline-offset-8 decoration-1 decoration-zinc-400 hover:decoration-zinc-200 transition duration-200"
 						>{$page.data.session?.user?.name}.</a
 					> Here's what we've been watching…
 				</h2>
