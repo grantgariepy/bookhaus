@@ -9,7 +9,7 @@
 				href="/"
 				class="text-gray-400 text-sm  text-center mb-0 uppercase tracking-widest hover:text-blue-400"
 			>
-				Popular On Bookhaus
+				Popular With Friends
 			</a>
 
 			<a

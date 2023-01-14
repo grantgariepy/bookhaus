@@ -44,7 +44,7 @@
 				>
 					<div class="">
 						<h2
-							class="text-zinc-200 text-xl sm:text-2xl lg:text-3xl font-bold text-center sm:text-left"
+							class="text-zinc-200 text-lg sm:text-xl lg:text-2xl font-bold text-center sm:text-left"
 						>
 							Big News in Bookland
 						</h2>

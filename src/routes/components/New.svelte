@@ -9,7 +9,7 @@
 				href="/"
 				class="text-gray-400 text-sm  text-center mb-0 uppercase tracking-widest hover:text-blue-400"
 			>
-				New On Bookhaus
+				New From Friends
 			</a>
 
 			<a

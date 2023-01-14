@@ -22,9 +22,7 @@
 
 		<div class="pb-2 grid md:grid-cols-3 gap-6">
 			<!-- review start -->
-			<div
-				class="flex flex-col  pb-4 border-b border-gray-500 h-min z-50"
-			>
+			<div class="flex flex-col  pb-4  h-min z-50">
 				<div>
 					<a
 						href="/"
@@ -147,9 +145,7 @@
 			</div>
 			<!-- review - end -->
 			<!-- review start -->
-			<div
-				class="flex flex-col  pb-4 border-b border-gray-500 h-min z-50"
-			>
+			<div class="flex flex-col  pb-4  h-min z-50">
 				<div>
 					<a
 						href="/"
@@ -272,9 +268,7 @@
 			</div>
 			<!-- review - end -->
 			<!-- review start -->
-			<div
-				class="flex flex-col  pb-4 border-b border-gray-500 h-min z-50"
-			>
+			<div class="flex flex-col  pb-4 h-min z-50">
 				<div>
 					<a
 						href="/"

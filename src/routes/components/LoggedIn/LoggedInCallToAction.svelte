@@ -4,7 +4,7 @@
 
 <!-- break text -->
 <div
-	class="bg-gradient-to-b from-zinc-700 to-zinc-800 z-0 py-2 sm:py-4 lg:py-8"
+	class="bg-gradient-to-b from-zinc-700 to-zinc-800 z-0 pt-8 "
 >
 	<div>
 		<div class="max-w-screen-lg px-4 md:px-8 mx-auto">
@@ -21,7 +21,7 @@
 					> Here's what we've been watching…
 				</h2>
 			</div>
-			<div
+			<!-- <div
 				class="flex flex-col lg:flex-row lg:justify-center items-center mb-0 font-thin"
 			>
 				<h2
@@ -33,7 +33,7 @@
 						>follow active members</a
 					> on Letterboxd.
 				</h2>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </div>
