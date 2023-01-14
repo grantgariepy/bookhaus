@@ -8,6 +8,7 @@
 	import Popular from '../Popular.svelte';
 	import PopularReviewsWithFriends from '../Popular/PopularReviewsWithFriends.svelte';
 	import PopularItems from '../PopularItems.svelte';
+	import PopularLists from '../PopularLists.svelte';
 	import LoggedInCallToAction from './LoggedInCallToAction.svelte';
 	import LoggedInHeader from './LoggedInHeader.svelte';
 </script>
@@ -18,3 +19,4 @@
 <PopularItems />
 <LatestNews />
 <PopularReviewsWithFriends />
+<PopularLists />
