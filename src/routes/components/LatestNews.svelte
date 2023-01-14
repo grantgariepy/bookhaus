@@ -20,7 +20,7 @@
 			</a>
 		</div>
 		<div
-			class="flex bg-zinc-600 rounded-md overflow-hidden h-40"
+			class="flex bg-zinc-700 rounded-md overflow-hidden h-40"
 		>
 			<!-- image - start -->
 			<div

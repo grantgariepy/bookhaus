@@ -29,7 +29,7 @@
 					class="group h-44 md:h-44 block bg-gray-100 overflow-hidden relative"
 				>
 					<img
-						src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600"
+						src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1373&q=80"
 						loading="lazy"
 						alt=" Minh Pham"
 						class="w-full h-full object-cover object-center absolute inset-0 rounded-t transition duration-200"
@@ -41,7 +41,8 @@
 						class="flex justify-between items-end mt-auto"
 					>
 						<div class="flex items-center gap-2">
-							<div
+							<a
+								href="/"
 								class="w-6 h-6 shrink-0 bg-gray-100 rounded-full overflow-hidden"
 							>
 								<img
@@ -50,22 +51,24 @@
 									alt=" Brock Wegner"
 									class="w-full h-full object-cover object-center"
 								/>
-							</div>
+							</a>
 
 							<div>
-								<span class="block text-zinc-300 font-bold"
-									>username69</span
+								<a
+									href="/"
+									class="block text-zinc-300 font-bold hover:text-zinc-200"
+									>username69</a
 								>
 							</div>
 						</div>
 					</div>
 					<h2
-						class="text-zinc-100 text-2xl font-serif my-3"
+						class="text-zinc-100 text-2xl font-serif my-3 font-bold tracking-tight"
 					>
 						<a
 							href="/"
 							class="hover:text-blue-400 active:text-indigo-600 transition duration-100"
-							>New trends in Tech</a
+							>The best Horror Stories from the 19th Century</a
 						>
 					</h2>
 
@@ -76,7 +79,7 @@
 					</p>
 					<a
 						href="/"
-						class="text-zinc-400 uppercase mb-2 font-bold hover:text-blue-400"
+						class="text-zinc-300 uppercase mb-2 font-bold hover:text-blue-400"
 					>
 						Read More
 					</a>
@@ -92,7 +95,7 @@
 					class="group h-44 md:h-44 block bg-gray-100 overflow-hidden relative"
 				>
 					<img
-						src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600"
+						src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1373&q=80"
 						loading="lazy"
 						alt=" Minh Pham"
 						class="w-full h-full object-cover object-center absolute inset-0 rounded-t transition duration-200"
@@ -104,7 +107,8 @@
 						class="flex justify-between items-end mt-auto"
 					>
 						<div class="flex items-center gap-2">
-							<div
+							<a
+								href="/"
 								class="w-6 h-6 shrink-0 bg-gray-100 rounded-full overflow-hidden"
 							>
 								<img
@@ -113,22 +117,24 @@
 									alt=" Brock Wegner"
 									class="w-full h-full object-cover object-center"
 								/>
-							</div>
+							</a>
 
 							<div>
-								<span class="block text-zinc-300 font-bold"
-									>username69</span
+								<a
+									href="/"
+									class="block text-zinc-300 font-bold hover:text-zinc-200"
+									>username69</a
 								>
 							</div>
 						</div>
 					</div>
 					<h2
-						class="text-zinc-100 text-2xl font-serif my-3"
+						class="text-zinc-100 text-2xl font-serif my-3 font-bold tracking-tight"
 					>
 						<a
 							href="/"
 							class="hover:text-blue-400 active:text-indigo-600 transition duration-100"
-							>New trends in Tech</a
+							>How the second World War changed literature</a
 						>
 					</h2>
 
@@ -139,7 +145,7 @@
 					</p>
 					<a
 						href="/"
-						class="text-zinc-400 uppercase mb-2 font-bold hover:text-blue-400"
+						class="text-zinc-300 uppercase mb-2 font-bold hover:text-blue-400"
 					>
 						Read More
 					</a>
@@ -155,7 +161,7 @@
 					class="group h-44 md:h-44 block bg-gray-100 overflow-hidden relative"
 				>
 					<img
-						src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600"
+						src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1373&q=80"
 						loading="lazy"
 						alt=" Minh Pham"
 						class="w-full h-full object-cover object-center absolute inset-0 rounded-t transition duration-200"
@@ -167,7 +173,8 @@
 						class="flex justify-between items-end mt-auto"
 					>
 						<div class="flex items-center gap-2">
-							<div
+							<a
+								href="/"
 								class="w-6 h-6 shrink-0 bg-gray-100 rounded-full overflow-hidden"
 							>
 								<img
@@ -176,22 +183,24 @@
 									alt=" Brock Wegner"
 									class="w-full h-full object-cover object-center"
 								/>
-							</div>
+							</a>
 
 							<div>
-								<span class="block text-zinc-300 font-bold"
-									>username69</span
+								<a
+									href="/"
+									class="block text-zinc-300 font-bold hover:text-zinc-200"
+									>username69</a
 								>
 							</div>
 						</div>
 					</div>
 					<h2
-						class="text-zinc-100 text-2xl font-serif my-3"
+						class="text-zinc-100 text-2xl font-serif my-3 font-bold tracking-tight"
 					>
 						<a
 							href="/"
 							class="hover:text-blue-400 active:text-indigo-600 transition duration-100"
-							>New trends in Tech</a
+							>The Past, Present, and Future of literature</a
 						>
 					</h2>
 
@@ -202,7 +211,7 @@
 					</p>
 					<a
 						href="/"
-						class="text-zinc-400 uppercase mb-2 font-bold hover:text-blue-400"
+						class="text-zinc-300 uppercase mb-2 font-bold hover:text-blue-400"
 					>
 						Read More
 					</a>

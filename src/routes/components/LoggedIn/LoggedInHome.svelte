@@ -9,6 +9,8 @@
 	import PopularReviewsWithFriends from '../Popular/PopularReviewsWithFriends.svelte';
 	import PopularItems from '../PopularItems.svelte';
 	import PopularLists from '../PopularLists.svelte';
+	import RecentNews from '../RecentNews.svelte';
+	import RecentShowdowns from '../RecentShowdowns.svelte';
 	import RecentStories from '../RecentStories.svelte';
 	import LoggedInCallToAction from './LoggedInCallToAction.svelte';
 	import LoggedInHeader from './LoggedInHeader.svelte';
@@ -22,3 +24,5 @@
 <PopularReviewsWithFriends />
 <PopularLists />
 <RecentStories />
+<RecentShowdowns />
+<RecentNews />

@@ -1,4 +1,4 @@
-<div class="bg-zinc-700 pt-4 sm:pt-10 lg:pt-8">
+<div class="bg-zinc-600 pt-4 sm:pt-10 lg:pt-8">
 	<footer class="max-w-screen-xl px-4 md:px-8 mx-auto">
 		<div class="flex flex-col items-center">
 			<!-- nav - start -->
@@ -7,57 +7,57 @@
 			>
 				<a
 					href="/"
-					class="text-gray-300 font-bold hover:text-gray-100 active:text-indigo-600 transition duration-100"
+					class="text-gray-300 font-bold hover:text-zinc-200  transition duration-100"
 					>About</a
 				>
 				<a
 					href="/"
-					class="text-gray-300 font-bold hover:text-gray-100 active:text-indigo-600 transition duration-100"
+					class="text-gray-300 font-bold hover:text-zinc-200 transition duration-100"
 					>News</a
 				>
 				<a
 					href="/"
-					class="text-gray-300 font-bold hover:text-gray-100 active:text-indigo-600 transition duration-100"
+					class="text-gray-300 font-bold hover:text-zinc-200 transition duration-100"
 					>Pro</a
 				>
 				<a
 					href="/"
-					class="text-gray-300 font-bold hover:text-gray-100 active:text-indigo-600 transition duration-100"
+					class="text-gray-300 font-bold hover:text-zinc-200 transition duration-100"
 					>Apps</a
 				>
 				<a
 					href="/"
-					class="text-gray-300 font-bold hover:text-gray-100 active:text-indigo-600 transition duration-100"
+					class="text-gray-300 font-bold hover:text-zinc-200  transition duration-100"
 					>Podcast</a
 				>
 				<a
 					href="/"
-					class="text-gray-300 font-bold hover:text-gray-100 active:text-indigo-600 transition duration-100"
+					class="text-gray-300 font-bold hover:text-zinc-200 transition duration-100"
 					>Year in Review</a
 				>
 				<a
 					href="/"
-					class="text-gray-300 font-bold hover:text-gray-100 active:text-indigo-600 transition duration-100"
+					class="text-gray-300 font-bold hover:text-zinc-200  transition duration-100"
 					>Gift Guide</a
 				>
 				<a
 					href="/"
-					class="text-gray-300 font-bold hover:text-gray-100 active:text-indigo-600 transition duration-100"
+					class="text-gray-300 font-bold hover:text-zinc-200 transition duration-100"
 					>Help</a
 				>
 				<a
 					href="/"
-					class="text-gray-300 font-bold hover:text-gray-100 active:text-indigo-600 transition duration-100"
+					class="text-gray-300 font-bold hover:text-zinc-200 transition duration-100"
 					>Terms</a
 				>
 				<a
 					href="/"
-					class="text-gray-300 font-bold hover:text-gray-100 active:text-indigo-600 transition duration-100"
+					class="text-gray-300 font-bold hover:text-zinc-200 transition duration-100"
 					>API</a
 				>
 				<a
 					href="/"
-					class="text-gray-300 font-bold hover:text-gray-100 active:text-indigo-600 transition duration-100"
+					class="text-gray-300 font-bold hover:text-zinc-200  transition duration-100"
 					>Contact</a
 				>
 			</nav>
@@ -65,7 +65,7 @@
 				<a
 					href="/"
 					target="_blank"
-					class="text-gray-500 font-bold hover:text-gray-400 active:text-gray-600 transition duration-100"
+					class="text-zinc-400 hover:text-zinc-300 transition duration-100"
 				>
 					<svg
 						class="w-5 h-5"
@@ -83,7 +83,7 @@
 				<a
 					href="/"
 					target="_blank"
-					class="text-gray-500 hover:text-gray-400 active:text-gray-600 transition duration-100"
+					class="text-zinc-400 hover:text-zinc-300 transition duration-100"
 				>
 					<svg
 						class="w-5 h-5"
@@ -102,7 +102,7 @@
 				<a
 					href="/"
 					target="_blank"
-					class="text-gray-500 hover:text-gray-400 active:text-gray-600 transition duration-100"
+					class="text-zinc-400 hover:text-zinc-300 transition duration-100"
 				>
 					<svg
 						class="w-5 h-5"
@@ -121,7 +121,7 @@
 				<a
 					href="/"
 					target="_blank"
-					class="text-gray-500 hover:text-gray-400 active:text-gray-600 transition duration-100"
+					class="text-zinc-400 hover:text-zinc-300 transition duration-100"
 				>
 					<svg
 						class="w-5 h-5"
@@ -138,7 +138,7 @@
 				</a>
 			</div>
 			<!-- nav - end -->
-			<div class="text-gray-400 text-sm pb-24 pt-4 flex">
+			<div class="text-zinc-400 text-sm pb-24 pt-4 flex">
 				© 2022 - Present Bookhaus. All rights reserved.
 			</div>
 		</div>
