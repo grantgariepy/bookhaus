@@ -20,7 +20,7 @@
 			</a>
 		</div>
 
-		<div class="pb-2 grid grid-cols-3 gap-6">
+		<div class="pb-2 grid md:grid-cols-3 gap-6">
 			<!-- review start -->
 			<div
 				class="flex flex-col  pb-4 border-b border-gray-500 h-min z-50"
@@ -28,7 +28,7 @@
 				<div>
 					<a
 						href="/"
-						class="group block bg-gray-100 rounded-lg overflow-hidden relative "
+						class="group block bg-gray-100 rounded-md overflow-hidden relative "
 					>
 						<div class="grid grid-cols-6">
 							<div
@@ -38,7 +38,7 @@
 									src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 									loading="lazy"
 									alt=" by Rachit Tank"
-									class="object-cover object-center rounded-md border  border-zinc-300"
+									class="object-cover object-center rounded-md border  border-zinc-400"
 								/>
 							</div>
 							<div
@@ -48,7 +48,7 @@
 									src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 									loading="lazy"
 									alt=" by Rachit Tank"
-									class="object-cover object-center rounded-md border  border-zinc-300"
+									class="object-cover object-center rounded-md border  border-zinc-400"
 								/>
 							</div>
 							<div
@@ -58,7 +58,7 @@
 									src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 									loading="lazy"
 									alt=" by Rachit Tank"
-									class="object-cover object-center rounded-md border  border-zinc-300"
+									class="object-cover object-center rounded-md border  border-zinc-400"
 								/>
 							</div>
 							<div
@@ -68,7 +68,7 @@
 									src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 									loading="lazy"
 									alt=" by Rachit Tank"
-									class="object-cover object-center rounded-md border  border-zinc-300"
+									class="object-cover object-center rounded-md border  border-zinc-400"
 								/>
 							</div>
 							<div
@@ -78,7 +78,7 @@
 									src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 									loading="lazy"
 									alt=" by Rachit Tank"
-									class="object-cover object-center rounded-md border  border-zinc-300"
+									class="object-cover object-center rounded-md border  border-zinc-400"
 								/>
 							</div>
 						</div>
@@ -153,7 +153,7 @@
 				<div>
 					<a
 						href="/"
-						class="group block bg-gray-100 rounded-lg overflow-hidden relative "
+						class="group block bg-gray-100 rounded-md overflow-hidden relative "
 					>
 						<div class="grid grid-cols-6">
 							<div
@@ -163,7 +163,7 @@
 									src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 									loading="lazy"
 									alt=" by Rachit Tank"
-									class="object-cover object-center rounded-md border  border-zinc-300"
+									class="object-cover object-center rounded-md border  border-zinc-400"
 								/>
 							</div>
 							<div
@@ -173,7 +173,7 @@
 									src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 									loading="lazy"
 									alt=" by Rachit Tank"
-									class="object-cover object-center rounded-md border  border-zinc-300"
+									class="object-cover object-center rounded-md border  border-zinc-400"
 								/>
 							</div>
 							<div
@@ -183,7 +183,7 @@
 									src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 									loading="lazy"
 									alt=" by Rachit Tank"
-									class="object-cover object-center rounded-md border  border-zinc-300"
+									class="object-cover object-center rounded-md border  border-zinc-400"
 								/>
 							</div>
 							<div
@@ -193,7 +193,7 @@
 									src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 									loading="lazy"
 									alt=" by Rachit Tank"
-									class="object-cover object-center rounded-md border  border-zinc-300"
+									class="object-cover object-center rounded-md border  border-zinc-400"
 								/>
 							</div>
 							<div
@@ -203,7 +203,7 @@
 									src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 									loading="lazy"
 									alt=" by Rachit Tank"
-									class="object-cover object-center rounded-md border  border-zinc-300"
+									class="object-cover object-center rounded-md border  border-zinc-400"
 								/>
 							</div>
 						</div>
@@ -278,7 +278,7 @@
 				<div>
 					<a
 						href="/"
-						class="group block bg-gray-100 rounded-lg overflow-hidden relative "
+						class="group block bg-gray-100 rounded-md overflow-hidden relative "
 					>
 						<div class="grid grid-cols-6">
 							<div
@@ -288,7 +288,7 @@
 									src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 									loading="lazy"
 									alt=" by Rachit Tank"
-									class="object-cover object-center rounded-md border  border-zinc-300"
+									class="object-cover object-center rounded-md border  border-zinc-400"
 								/>
 							</div>
 							<div
@@ -298,7 +298,7 @@
 									src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 									loading="lazy"
 									alt=" by Rachit Tank"
-									class="object-cover object-center rounded-md border  border-zinc-300"
+									class="object-cover object-center rounded-md border  border-zinc-400"
 								/>
 							</div>
 							<div
@@ -308,7 +308,7 @@
 									src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 									loading="lazy"
 									alt=" by Rachit Tank"
-									class="object-cover object-center rounded-md border  border-zinc-300"
+									class="object-cover object-center rounded-md border  border-zinc-400"
 								/>
 							</div>
 							<div
@@ -318,7 +318,7 @@
 									src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 									loading="lazy"
 									alt=" by Rachit Tank"
-									class="object-cover object-center rounded-md border  border-zinc-300"
+									class="object-cover object-center rounded-md border  border-zinc-400"
 								/>
 							</div>
 							<div
@@ -328,7 +328,7 @@
 									src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
 									loading="lazy"
 									alt=" by Rachit Tank"
-									class="object-cover object-center rounded-md border  border-zinc-300"
+									class="object-cover object-center rounded-md border  border-zinc-400"
 								/>
 							</div>
 						</div>

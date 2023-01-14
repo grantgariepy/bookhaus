@@ -20,7 +20,7 @@
 			</a>
 		</div>
 
-		<div class="pb-2 grid grid-cols-2 gap-6">
+		<div class="pb-2 grid grid-cols md:grid-cols-2 gap-6">
 			<!-- review - start -->
 			<div
 				class="flex flex-row gap-4 pb-4 border-b border-gray-500"
@@ -29,7 +29,7 @@
 					<div>
 						<a
 							href="/"
-							class="group h-48 w-32 md:h-48 md:w-32 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3"
+							class="group h-48 w-32 md:h-48 md:w-32 block bg-gray-100 rounded-md overflow-hidden relative mb-2 lg:mb-3"
 						>
 							<img
 								src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
@@ -38,27 +38,30 @@
 								class="w-full h-full object-cover object-center "
 							/>
 							<div
-								class=" absolute inset-0 border-transparent hover:border-4 hover:border-green-500  duration-150 ease-in-out"
+								class=" absolute inset-0 rounded-md border border-zinc-400 hover:border-4 hover:border-green-500  duration-150 ease-in-out z-50"
 							/>
 						</a>
 					</div>
 				</div>
 				<div class="flex flex-col gap-3 py-1">
 					<div class="flex flex-row">
-						<span class=" text-white text-3xl font-bold">
+						<a
+							href="/"
+							class=" text-white text-3xl font-bold font-serif hover:text-blue-400"
+						>
 							It
 							<span class="font-medium text-xl"> by </span>
 
 							Stephen King
 							<span
-								class=" text-gray-500 text-2xl font-thin"
+								class=" text-gray-500 text-2xl font-thin font-sans"
 							>
 								1986
 							</span>
-						</span>
+						</a>
 					</div>
 					<!-- stars - start -->
-					<div class="flex gap-0.5 -ml-1">
+					<div class="flex gap-1">
 						<div
 							class="w-6 md:w-6 h-6 md:h-6 bg-gray-100 rounded-full overflow-hidden shadow-lg mb-2 md:mb-4"
 						>
@@ -69,7 +72,11 @@
 								class="w-full h-full object-cover object-center"
 							/>
 						</div>
-						<p class="text-gray-300 font-bold">User69</p>
+						<a
+							href="/"
+							class="text-zinc-400 font-bold hover:text-zinc-300"
+							>User69</a
+						>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="w-5 h-5 text-yellow-400"
@@ -145,7 +152,7 @@
 					<div>
 						<a
 							href="/"
-							class="group h-48 w-32 md:h-48 md:w-32 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3"
+							class="group h-48 w-32 md:h-48 md:w-32 block bg-gray-100 rounded-md overflow-hidden relative mb-2 lg:mb-3"
 						>
 							<img
 								src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg"
@@ -154,27 +161,30 @@
 								class="w-full h-full object-cover object-center "
 							/>
 							<div
-								class=" absolute inset-0 border-transparent hover:border-4 hover:border-green-500  duration-150 ease-in-out"
+								class=" absolute inset-0 rounded-md border border-zinc-400 hover:border-4 hover:border-green-500  duration-150 ease-in-out z-50"
 							/>
 						</a>
 					</div>
 				</div>
 				<div class="flex flex-col gap-3 py-1">
 					<div class="flex flex-row">
-						<span class=" text-white text-3xl font-bold">
+						<a
+							href="/"
+							class=" text-white text-3xl font-bold font-serif hover:text-blue-400"
+						>
 							It
 							<span class="font-medium text-xl"> by </span>
 
 							Stephen King
 							<span
-								class=" text-gray-500 text-2xl font-thin"
+								class=" text-gray-500 text-2xl font-thin font-sans"
 							>
 								1986
 							</span>
-						</span>
+						</a>
 					</div>
 					<!-- stars - start -->
-					<div class="flex gap-0.5 -ml-1">
+					<div class="flex gap-1">
 						<div
 							class="w-6 md:w-6 h-6 md:h-6 bg-gray-100 rounded-full overflow-hidden shadow-lg mb-2 md:mb-4"
 						>
@@ -185,7 +195,11 @@
 								class="w-full h-full object-cover object-center"
 							/>
 						</div>
-						<p class="text-gray-300 font-bold">User69</p>
+						<a
+							href="/"
+							class="text-zinc-400 font-bold hover:text-zinc-300"
+							>User69</a
+						>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="w-5 h-5 text-yellow-400"
