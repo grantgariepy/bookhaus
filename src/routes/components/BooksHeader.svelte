@@ -31,7 +31,7 @@
 					</a>
 					<a
 						href="/"
-						class="pt-2 text-white  text-md font-semibold transition duration-100"
+						class="pt-2 text-zinc-400 hover:text-white  text-md font-semibold transition duration-100"
 						>BOOKS</a
 					>
 					<a
