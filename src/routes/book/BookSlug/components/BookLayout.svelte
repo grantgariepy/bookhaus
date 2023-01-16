@@ -66,11 +66,11 @@
 					<Tabs />
 				</div>
 			</div>
-			<div class="md:row-span-3 md:col-span-3 bg-zinc-200">
+			<div class="md:row-span-3 md:col-span-3">
 				<div
-					class="bg-zinc-500 rounded flex flex-col items-center"
+					class="bg-zinc-500 rounded flex flex-col items-center gap-3 pt-3"
 				>
-					<div class="min-h-min flex flex-row gap-4">
+					<div class="min-h-min flex flex-row gap-5 ">
 						<a href="/" class="flex flex-col group">
 							<svg
 								fill="currentColor"
@@ -116,7 +116,7 @@
 							<p class="text-sm text-zinc-300">Watchlist</p>
 						</a>
 					</div>
-					<div class="min-h-min" />
+					<div class="min-h-min">2</div>
 					<div class="min-h-min">3</div>
 					<div class="min-h-min">4</div>
 					<div class="min-h-min">5</div>
