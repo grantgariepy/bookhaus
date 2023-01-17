@@ -1,3 +1,11 @@
+<p class="text-zinc-300 pb-4">
+	Infinite Jest is a 1996 novel by American writer David
+	Foster Wallace. Categorized as an encyclopedic novel,
+	Infinite Jest is featured in TIME magazine's list of the
+	100 best English-language novels published between 1923
+	and 2005. The novel has an unconventional narrative
+	structure and includes...
+</p>
 <div
 	class="flex flex-row items-center mb-2 border-b border-zinc-400"
 >

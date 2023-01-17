@@ -19,7 +19,7 @@
 					class="absolute inset-0 w-full h-full  rounded-md opacity-80 bg-zinc-900 self-center"
 				/>
 				<div class="absolute inset-6">
-					<div class="flex flex-col py-4 gap-2">
+					<div class="flex flex-col py-14 gap-2">
 						<svg
 							fill="currentColor"
 							class="w-10 h-10 text-green-400 self-center"
@@ -59,5 +59,10 @@
 		</div>
 		<!-- overlay end -->
 	</a>
+	<div class="flex justify-evenly text-zinc-200 pb-6">
+		<p>watched</p>
+		<p>saved</p>
+		<p>review</p>
+	</div>
 </div>
 <!-- product - end -->
