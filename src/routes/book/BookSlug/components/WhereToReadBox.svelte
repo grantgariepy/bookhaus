@@ -15,12 +15,21 @@
 		</a>
 	</div>
 	<div
-		class="grid grid-cols-1 divide-y text-zinc-300 divide-x-0 divide-zinc-600 border-spacing-1 font-thin"
+		class="grid grid-cols-1 divide-y text-zinc-400 divide-x-0 divide-zinc-600 border-spacing-1 font-thin"
 	>
-		<a href="/" class="py-1 pl-2">Amazon US</a>
-		<a href="/" class="py-1 pl-2">iTunes</a>
-		<a href="/" class="py-1 pl-2">Google Play</a>
-		<a href="/" class="py-2 pl-2 text-blue-400 text-sm">
+		<a href="/" class="py-1 pl-2 hover:text-zinc-300 "
+			>Amazon US</a
+		>
+		<a href="/" class="py-1 pl-2 hover:text-zinc-300 "
+			>iTunes</a
+		>
+		<a href="/" class="py-1 pl-2 hover:text-zinc-300 "
+			>Google Play</a
+		>
+		<a
+			href="/"
+			class="py-2 pl-2 text-blue-400 text-sm hover:text-zinc-300 "
+		>
 			All Services...
 		</a>
 	</div>

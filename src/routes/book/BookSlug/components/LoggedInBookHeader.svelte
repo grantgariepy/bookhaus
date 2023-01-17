@@ -4,7 +4,7 @@
 </script>
 
 <!-- navbar -->
-<div class="bg-zinc-800 lg:pb-2">
+<div class="bg-zinc-800 lg:pb-2 z-0">
 	<div class="max-w-screen-xl px-4 md:px-8 mx-auto ">
 		<section
 			class="top-0 min-h-full flex justify-center flex-1 shrink-0  overflow-hidden rounded-lg relative py-12 lg:py-48"
