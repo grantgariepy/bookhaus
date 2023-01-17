@@ -18,30 +18,36 @@
 					<p>saved</p>
 					<p>review</p>
 				</div>
-				<!-- <div
-					class="w-2/3 mx-auto rounded-sm border border-zinc-400"
-				>
+				<div class="  rounded border border-zinc-600">
 					<div
-						class="bg-zinc-600 flex justify-between py-2 px-2 text-zinc-200"
+						class="rounded-t bg-zinc-600 flex justify-between py-2 px-2 text-zinc-200"
 					>
 						<p
-							class=" text-center  text-sm uppercase self-center"
+							class=" text-center  text-xs uppercase self-center font-thin"
 						>
 							Where to Read
 						</p>
-						<p>Sample</p>
+						<a
+							href="/"
+							class=" text-center text-xs self-center font-thin"
+						>
+							Sample
+						</a>
 					</div>
 					<div
-						class="grid grid-cols-1 divide-y text-zinc-300 divide-x-0 border-spacing-1"
+						class="grid grid-cols-1 divide-y text-zinc-300 divide-x-0 divide-zinc-600 border-spacing-1 font-thin"
 					>
-						<p>Amazon</p>
-						<p>Amazon</p>
-						<p>Amazon</p>
-						<p>Amazon</p>
-						<p>Amazon</p>
-						<p>Amazon</p>
-					</div> 
-				</div>-->
+						<a href="/" class="py-1 pl-2">Amazon US</a>
+						<a href="/" class="py-1 pl-2">iTunes</a>
+						<a href="/" class="py-1 pl-2">Google Play</a>
+						<a
+							href="/"
+							class="py-2 pl-2 text-blue-400 text-sm"
+						>
+							All Services...
+						</a>
+					</div>
+				</div>
 			</div>
 			<div class=" md:col-span-9 ">
 				<p class="font-serif text-4xl text-zinc-200">
@@ -66,11 +72,14 @@
 					<Tabs />
 				</div>
 			</div>
+			<!-- action block -->
 			<div class="md:row-span-3 md:col-span-3">
 				<div
-					class="bg-zinc-500 rounded flex flex-col items-center gap-3 pt-3"
+					class="bg-zinc-500 rounded flex flex-col items-center  "
 				>
-					<div class="min-h-min flex flex-row gap-5 ">
+					<div
+						class="min-h-min flex flex-row min-w-full justify-evenly  py-3 border-b border-zinc-700"
+					>
 						<a href="/" class="flex flex-col group">
 							<svg
 								fill="currentColor"
@@ -116,15 +125,107 @@
 							<p class="text-sm text-zinc-300">Watchlist</p>
 						</a>
 					</div>
-					<div class="min-h-min">2</div>
-					<div class="min-h-min">3</div>
-					<div class="min-h-min">4</div>
-					<div class="min-h-min">5</div>
+					<div
+						class="min-h-min flex flex-row min-w-full justify-evenly  py-3 border-b border-zinc-700"
+					>
+						<a href="/" class="flex flex-col group">
+							<p class="text-sm text-zinc-300 text-center">
+								Rated
+							</p>
+							<div class="flex flex-row">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="w-10 h-10 text-green-500"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+								>
+									<path
+										d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+									/>
+								</svg>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="w-10 h-10 text-green-500"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+								>
+									<path
+										d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+									/>
+								</svg>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="w-10 h-10 text-green-500"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+								>
+									<path
+										d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+									/>
+								</svg>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="w-10 h-10 text-green-500"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+								>
+									<path
+										d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+									/>
+								</svg>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="w-10 h-10 text-green-500"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+								>
+									<path
+										d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+									/>
+								</svg>
+							</div>
+						</a>
+					</div>
+
+					<div
+						class="min-h-min flex flex-row min-w-full justify-evenly  py-3 border-b border-zinc-700"
+					>
+						<p class="text-zinc-300">Review or log...</p>
+					</div>
+					<div
+						class="min-h-min flex flex-row min-w-full justify-evenly  py-3 border-b border-zinc-700"
+					>
+						<p class="text-zinc-300">Add to lists...</p>
+					</div>
+					<div
+						class="min-h-min flex flex-row min-w-full justify-evenly  py-3 border-b border-zinc-700"
+					>
+						<p class="text-zinc-300">Share</p>
+					</div>
 				</div>
 			</div>
-			<div class="md:row-span-1 md:col-span-3 bg-zinc-200">
-				06
+			<!-- action block end -->
+			<!-- ratings -->
+			<div class="md:row-span-1 md:col-span-3">
+				<div
+					class="flex flex-row justify-between items-center mb-2 border-b border-zinc-400"
+				>
+					<p
+						class=" text-zinc-300 text-sm  text-center mb-0 uppercase tracking-widest"
+					>
+						Ratings
+					</p>
+					<p
+						class=" text-zinc-400  text-xs font-thin text-center mb-0 uppercase tracking-widest"
+					>
+						1.2K Fans
+					</p>
+				</div>
+				<div
+					class="flex flex-row px-5 justify-self-start"
+				/>
 			</div>
+			<!-- ratings end -->
 		</div>
 	</div>
 </div>
