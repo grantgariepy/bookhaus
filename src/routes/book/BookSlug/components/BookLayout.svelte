@@ -1,17 +1,19 @@
 <script>
-	import ActionBox from './ActionBox.svelte';
+	import { page } from '$app/stores';
+	import ActionBox from './ActionBoxLoggedIn.svelte';
 	import ActivityFromFriends from './ActivityFromFriends.svelte';
 	import BookCover from './BookCover.svelte';
 	import BookDetails from './BookDetails.svelte';
 	import Ratings from './Ratings.svelte';
-	import Tabs from './Tabs.svelte';
 	import TitleAuthorYear from './TitleAuthorYear.svelte';
 	import WhereToReadBox from './WhereToReadBox.svelte';
-	import { page } from '$app/stores';
 	import PopularReviews from './PopularReviews.svelte';
 	import RecentReviews from './RecentReviews.svelte';
 	import RelatedBooks from './RelatedBooks.svelte';
 	import SimilarBooks from './SimilarBooks.svelte';
+	import ActionBoxLoggedOut from './ActionBoxLoggedOut.svelte';
+	import ActionBoxLoggedIn from './ActionBoxLoggedIn.svelte';
+	import PopularLists from './PopularLists.svelte';
 </script>
 
 <div class="bg-zinc-800 -mt-8">
@@ -32,7 +34,11 @@
 						<BookDetails />
 					</div>
 					<div class="md:w-2/5 ">
-						<ActionBox />
+						{#if $page.data.session}
+							<ActionBoxLoggedIn />
+						{:else}
+							<ActionBoxLoggedOut />
+						{/if}
 						<Ratings />
 					</div>
 				</div>
@@ -43,6 +49,7 @@
 				<RecentReviews />
 				<RelatedBooks />
 				<SimilarBooks />
+				<PopularLists />
 			</div>
 		</div>
 	</div>
