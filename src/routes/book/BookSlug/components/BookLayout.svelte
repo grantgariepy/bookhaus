@@ -28,7 +28,7 @@
 			<div class="md:w-3/4 flex flex-col z-30">
 				<TitleAuthorYear />
 				<div
-					class="flex flex-col md:flex-row gap-10 md:gap-20 pt-6"
+					class="flex flex-col md:flex-row gap-10 md:gap-12 pt-6"
 				>
 					<div class="md:w-3/5 ">
 						<BookDetails />
