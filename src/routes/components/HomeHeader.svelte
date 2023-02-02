@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { signIn } from '@auth/sveltekit/client';
 
-	let searchTerm: string = '';
+	let searchTerm = '';
 </script>
 
 <!-- navbar -->
@@ -68,11 +68,12 @@
 						> -->
 						<form
 							class="flex group"
-							action={`search/${searchTerm}`}
+							action={`search/${searchTerm
+								.split(' ')
+								.join('+')}`}
 						>
 							<input
 								bind:value={searchTerm}
-								name="searchTerm"
 								type="text"
 								class="form-control transition duration-150 opacity-50 bg-zinc-300  text-zinc-400 focus:text-zinc-900 rounded-3xl border-b border-zinc-500  hover:opacity-70 focus:opacity-100 active:opacity-100 focus:outline-none my-1 pl-2"
 							/>
