@@ -1,5 +1,4 @@
-<script>
-	import { page } from '$app/stores';
+<script lang="ts">
 	import ActionBox from './ActionBoxLoggedIn.svelte';
 	import ActivityFromFriends from './ActivityFromFriends.svelte';
 	import BookCover from './BookCover.svelte';
@@ -14,6 +13,8 @@
 	import ActionBoxLoggedOut from './ActionBoxLoggedOut.svelte';
 	import ActionBoxLoggedIn from './ActionBoxLoggedIn.svelte';
 	import PopularLists from './PopularLists.svelte';
+	import type { PageData } from '../$types';
+	export let data: PageData;
 </script>
 
 <div class="bg-zinc-800 -mt-8">
@@ -26,7 +27,8 @@
 				<WhereToReadBox />
 			</div>
 			<div class="md:w-3/4 flex flex-col z-30">
-				<TitleAuthorYear />
+				<!-- {data.results.data.title} -->
+				<TitleAuthorYear {data} />
 				<div
 					class="flex flex-col md:flex-row gap-10 md:gap-12 pt-6"
 				>
@@ -34,17 +36,17 @@
 						<BookDetails />
 					</div>
 					<div class="md:w-2/5 ">
-						{#if $page.data.session}
+						<!-- {#if $page.data.session}
 							<ActionBoxLoggedIn />
 						{:else}
 							<ActionBoxLoggedOut />
-						{/if}
+						{/if} -->
 						<Ratings />
 					</div>
 				</div>
-				{#if $page.data.session}
+				<!-- {#if $page.data.session}
 					<ActivityFromFriends />
-				{/if}
+				{/if} -->
 				<PopularReviews />
 				<RecentReviews />
 				<RelatedBooks />

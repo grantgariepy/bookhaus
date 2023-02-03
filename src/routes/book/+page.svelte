@@ -11,4 +11,4 @@
 {:else}
 	<LoggedOutBookHeader />
 {/if}
-<h1>sorr we can't find this page</h1>
+<h1>sorry we can't find this page</h1>

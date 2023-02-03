@@ -9,6 +9,7 @@ export const load: PageServerLoad = async ({fetch, params}) =>{
     if(data){
       return {data};
     }
+    
 
     throw error(404, 'Not Found, failure')
   }
