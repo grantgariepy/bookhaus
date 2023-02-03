@@ -8,7 +8,7 @@
 	const imgURLStart =
 		'https://covers.openlibrary.org/b/id/';
 	const imgURLEnd = '-L.jpg';
-	console.log(data.results.data.docs);
+	// console.log(data.results.data.docs);
 </script>
 
 <BooksHeader />
@@ -16,7 +16,16 @@
 	<div class="max-w-screen-lg px-4 md:px-8 mx-auto">
 		{#each results as result}
 			<a href="../book/{result.key.split('/')[2]}">
-				<h1>{result.title}</h1>
+				<h1 class="capitalize text-3xl text-white">
+					{result.title}
+					<span class="text-2xl font-extralight lowercase"
+						>by</span
+					>
+					{result.author_name}
+				</h1>
+				<h3 class="capitalize text-xl text-white">
+					{result.first_publish_year}
+				</h3>
 				<img
 					src={imgURLStart + result.cover_i + imgURLEnd}
 					alt={result.title}
