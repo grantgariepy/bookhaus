@@ -11,9 +11,6 @@
 	export let data: PageData;
 </script>
 
-{#if $page.data.session}
-	<LoggedInBookHeader />
-{:else}
-	<LoggedOutBookHeader />
-{/if}
+<LoggedOutBookHeader />
+
 <BookLayout {data} />
