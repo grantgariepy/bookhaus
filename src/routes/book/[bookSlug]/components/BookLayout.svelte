@@ -23,7 +23,7 @@
 			class="flex flex-col md:flex-row gap-6 md:gap-12 px-6 md:px-12 "
 		>
 			<div class="md:w-1/4 self-start md:sticky md:top-3">
-				<BookCover />
+				<BookCover {data} />
 				<WhereToReadBox />
 			</div>
 			<div class="md:w-3/4 flex flex-col z-30">
@@ -33,14 +33,14 @@
 					class="flex flex-col md:flex-row gap-10 md:gap-12 pt-6"
 				>
 					<div class="md:w-3/5 ">
-						<BookDetails />
+						<BookDetails {data} />
 					</div>
 					<div class="md:w-2/5 ">
 						<!-- {#if $page.data.session}
 							<ActionBoxLoggedIn />
-						{:else}
-							<ActionBoxLoggedOut />
-						{/if} -->
+						{:else}-->
+						<ActionBoxLoggedOut />
+						<!-- {/if}  -->
 						<Ratings />
 					</div>
 				</div>

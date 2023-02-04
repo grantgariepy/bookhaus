@@ -1,10 +1,14 @@
+<script lang="ts">
+	import type { PageData } from '../$types';
+	export let data: PageData;
+	const book = data.results;
+</script>
+
+<p class="text-zinc-300 pb-4 uppercase">
+	{book.first_sentence.value}
+</p>
 <p class="text-zinc-300 pb-4">
-	Infinite Jest is a 1996 novel by American writer David
-	Foster Wallace. Categorized as an encyclopedic novel,
-	Infinite Jest is featured in TIME magazine's list of the
-	100 best English-language novels published between 1923
-	and 2005. The novel has an unconventional narrative
-	structure and includes...
+	{book.description.value}
 </p>
 <div class="flex flex-row mb-2 border-b border-zinc-400">
 	<p

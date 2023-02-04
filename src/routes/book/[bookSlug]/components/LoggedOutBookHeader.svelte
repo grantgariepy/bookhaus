@@ -1,6 +1,12 @@
-<script>
+<script lang="ts">
 	import { signIn, signOut } from '@auth/sveltekit/client';
 	import { page } from '$app/stores';
+	import type { PageData } from '../$types';
+	export let data: PageData;
+	const book = data.results;
+	const imgURLStart =
+		'https://covers.openlibrary.org/b/id/';
+	const imgURLEnd = '-L.jpg';
 </script>
 
 <!-- navbar -->
@@ -11,10 +17,9 @@
 		>
 			<!-- image - start -->
 			<img
-				src="https://images.unsplash.com/photo-1619641554018-8351f85d3e20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-				loading="lazy"
-				alt="by https://unsplash.com/@sabinasturzu"
-				class="z-0 w-full h-full object-cover object-center absolute inset-0"
+				src={imgURLStart + book.covers[0] + imgURLEnd}
+				alt={book.title}
+				class="z-0 w-full h-full object-cover object-top absolute inset-0"
 			/>
 
 			<header class="flex justify-evenly py-2 md:py-8">

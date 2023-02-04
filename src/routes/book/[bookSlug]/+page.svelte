@@ -11,6 +11,6 @@
 	export let data: PageData;
 </script>
 
-<LoggedOutBookHeader />
+<LoggedOutBookHeader {data} />
 
 <BookLayout {data} />

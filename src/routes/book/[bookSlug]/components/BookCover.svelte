@@ -1,3 +1,12 @@
+<script lang="ts">
+	import type { PageData } from '../$types';
+	export let data: PageData;
+	const book = data.results;
+	const imgURLStart =
+		'https://covers.openlibrary.org/b/id/';
+	const imgURLEnd = '-L.jpg';
+</script>
+
 <!-- product - start -->
 <div>
 	<a
@@ -5,10 +14,8 @@
 		class="group block bg-gray-100 rounded-md overflow-hidden relative mb-2 lg:mb-3"
 	>
 		<img
-			src="https://ecx.images-amazon.com/images/I/81AiRe1j14L._SL1500_.jpg"
-			loading="lazy"
-			alt=" by Charles Deluvio"
-			class="w-full h-full object-cover object-center"
+			src={imgURLStart + book.covers[1] + imgURLEnd}
+			alt={book.title}
 		/>
 		<!-- overlay -->
 		<div class="group ">

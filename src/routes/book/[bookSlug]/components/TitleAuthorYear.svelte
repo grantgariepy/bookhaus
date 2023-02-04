@@ -2,6 +2,7 @@
 	import type { PageData } from '../$types';
 	export let data: PageData;
 	const book = data.results;
+	console.log(book);
 	const name = data.author.name;
 	// console.log(book);
 	// console.log(name);
