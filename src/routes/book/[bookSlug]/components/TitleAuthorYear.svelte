@@ -22,7 +22,7 @@
 				href="/"
 				class="items-end underline decoration-1 underline-offset-2 decoration-zinc-500 text-zinc-200 hover:text-blue-400"
 			>
-				{book.first_publish_date}
+				<!-- {book.first_publish_date} -->
 			</a>
 			<span class="text-zinc-400">by</span>
 			<a

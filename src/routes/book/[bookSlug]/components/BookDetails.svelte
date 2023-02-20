@@ -5,10 +5,10 @@
 </script>
 
 <p class="text-zinc-300 pb-4 uppercase">
-	{book.first_sentence.value}
+	<!-- {book.first_sentence.value} -->
 </p>
 <p class="text-zinc-300 pb-4">
-	{book.description.value}
+	<!-- {book.description.value} -->
 </p>
 <div class="flex flex-row mb-2 border-b border-zinc-400">
 	<p
